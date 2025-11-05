@@ -1,0 +1,5 @@
+{
+  "name": "JSON Inspector",
+  "description": "An intelligent tool to validate, analyze, and correct JSON data structures using AI. Part of the Streaming Intelligence Suite, it checks syntax and adherence to schemas, providing insightful error interpretations and actionable solutions.",
+  "requestFramePermissions": []
+}

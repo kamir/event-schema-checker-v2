@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>JSON Inspector | Streaming Intelligence Suite</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+      tailwind.config = {
+        theme: {
+          extend: {
+            colors: {
+              'brand-primary': '#0b0b1a',
+              'brand-secondary': '#14142b',
+              'brand-accent': '#BE35FF',
+              'brand-accent-secondary': '#00C2FF',
+              'brand-text': '#E0E0E0',
+              'brand-subtle': '#595977',
+              'brand-success': '#3FB950',
+              'brand-danger': '#F85149',
+              'brand-warning': '#D29922',
+              'brand-border': '#3c2f47',
+              'brand-orange': '#F5821F',
+            },
+          },
+        },
+      }
+    </script>
+    <style>
+      body {
+        background: radial-gradient(circle at 50% 100%, rgba(190, 53, 255, 0.15), rgba(190, 53, 255, 0) 30%), #0b0b1a;
+      }
+    </style>
+  <script type="importmap">
+{
+  "imports": {
+    "react/": "https://aistudiocdn.com/react@^19.1.1/",
+    "react": "https://aistudiocdn.com/react@^19.1.1",
+    "react-dom/": "https://aistudiocdn.com/react-dom@^19.1.1/",
+    "@google/genai": "https://aistudiocdn.com/@google/genai@^1.20.0"
+  }
+}
+</script>
+</head>
+  <body class="text-brand-text">
+    <div id="root"></div>
+    <script type="module" src="/index.tsx"></script>
+  </body>
+</html>
